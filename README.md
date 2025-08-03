@@ -1,18 +1,62 @@
-# pizza-store
-Pizza store para pedido de pizza
+# 🍕 Pizza Store - Plataforma Front End para Pedidos de Pizza
+
+Aplicação Front End para pedidos de pizzas, criada com **HTML**, **CSS** e **JavaScript**. Interface intuitiva para navegar pelo menu, visualizar detalhes das pizzas e gerenciar o carrinho de compras.
+
+---
+
+## 📋 Funcionalidades
+
+- 📜 **Menu de Pizzas:** Exibição das opções disponíveis com imagens e nomes;
+- 🔍 **Modal de Descrições:** Ao clicar na imagem ou no símbolo de “+”, abre uma modal com detalhes da pizza (ingredientes, tamanhos, preços);
+- ➕➖ **Botões de Quantidade:** Controle para adicionar ou subtrair a quantidade de cada pizza;
+- 🛒 **Adicionar ao Carrinho:** Botão para inserir a pizza selecionada com a quantidade escolhida no carrinho;
+- 🛍️ **Carrinho de Compras:** Visualização dos itens selecionados, suas quantidades e preços totais;
+- 🧮 **Cálculo Dinâmico:** Atualização automática do total conforme itens são adicionados ou removidos;
+- ⚠️ **Sem backend:** A plataforma não possui integração com servidor para finalizar pedidos — foco no Front End.
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript (vanilla)
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/pizza-store.git
+   
+📂 Estrutura do projeto
+bash
+
+pizza-store/
+
+├── index.html          # Página principal com menu e carrinho
+
+├── style.css           # Estilos da aplicação
+
+├── script.js           # Lógica para modal, carrinho e cálculos
+
+└── assets/             # Imagens e recursos
+
+💡 Possíveis melhorias
+Backend para processamento e finalização de pedidos;
+
+Autenticação de usuários;
+
+Integração com APIs de pagamento;
+
+Animações e feedbacks mais interativos.
 
 
-//Plataforma Front End para pedidos de pizzas, criado com HTML, CSS, JS;
+✍️ Autor
+Desenvolvido por Raone Ferreira
 
-//A plataforma consiste de menu de pizzas, com modal e descritivo ao clicar na imagem ou simbolo de +;
-
-//Features presentes:
-//Modal de descritições;
-//Botões de adição e subtração;
-//Botão de adicionar ao carrinho;
-//Carrinho com itens selecionados;
-//Cálculos de itens.
-//Sem ligação ao backend para finalizar pedido.
 
 PC view
 
